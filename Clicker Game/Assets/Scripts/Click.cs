@@ -10,7 +10,7 @@ public class Click : MonoBehaviour {
 
 	void Update(){
 		MoneyLicz.text = "Kasa: " + gold;
-		gpc.text = "Atak: " + goldperclick;
+		gpc.text = goldperclick + " gold/click";
 	}
 
 	public void Clicked(){
